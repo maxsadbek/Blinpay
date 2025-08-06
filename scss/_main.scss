@@ -162,4 +162,21 @@ main {
     width: 100%;
     position: relative;
   }
+  .card_box{
+    position: absolute;
+    top: 205%;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14rem;
+    img{
+      width: 60px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
 }

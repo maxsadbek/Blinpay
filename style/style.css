@@ -275,5 +275,21 @@ main .card_img {
   width: 100%;
   position: relative;
 }
+main .card_box {
+  position: absolute;
+  top: 205%;
+  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14rem;
+}
+main .card_box img {
+  width: 60px;
+  transition: all 0.3s ease-in-out;
+}
+main .card_box img:hover {
+  transform: scale(1.1);
+}
 
 /*# sourceMappingURL=style.css.map */

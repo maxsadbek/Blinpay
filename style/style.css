@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */

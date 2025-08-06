@@ -291,5 +291,35 @@ main .card_box img {
 main .card_box img:hover {
   transform: scale(1.1);
 }
+main .credit {
+  position: absolute;
+  top: 225%;
+  margin-left: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+main .credit .credit_box .credit_img {
+  margin-left: -3rem;
+}
+main .credit .credit_box h4 {
+  margin-top: -1.5rem;
+  font-size: 20px;
+  color: red;
+  margin-bottom: 1rem;
+}
+main .credit .credit_box h1 {
+  color: #555;
+  font-size: 45px;
+  width: 50%;
+}
+main .credit .credit_box h1 span {
+  color: #5c0e62;
+}
+main .credit .credit_box p {
+  width: 55%;
+  font-size: 18px;
+}
 
 /*# sourceMappingURL=style.css.map */

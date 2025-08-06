@@ -1,6 +1,6 @@
 @use "./variable" as *;
 main {
-  .hero img{
+  .hero img {
     background-repeat: no-repeat;
     object-fit: cover;
     width: 100%;
@@ -10,35 +10,35 @@ main {
     top: -5rem;
     z-index: -111;
   }
-  .hero_box{
+  .hero_box {
     position: absolute;
     display: flex;
     align-items: center;
     top: 16%;
     left: 6%;
-    .hero_text{
-        margin-top: -9rem;
-          h2{
+    .hero_text {
+      margin-top: -9rem;
+      h2 {
         color: $white;
         font-size: 50px;
         width: 67%;
         margin-bottom: 1rem;
-    }
-    p{
+      }
+      p {
         color: $white;
         font-size: 18px;
         width: 67%;
         line-height: 1.5;
         margin-bottom: 2rem;
-    }
-    .hero_btn{
+      }
+      .hero_btn {
         padding: 12px 40px;
         font-size: 18px;
         background-color: $coolblue;
         border: none;
         border-radius: 5px;
         color: $white;
-         transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         color: $white;
         &:hover {
           -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
@@ -52,22 +52,108 @@ main {
           box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
           transform: translateY(5px);
         }
+      }
     }
+    .hero_img {
+      .hero_img1 {
+        position: relative;
+        left: -20%;
+        height: 600px;
+      }
+      .hero_img2 {
+        width: 1200px;
+        position: absolute;
+        top: -5rem;
+        right: -2%;
+        height: auto;
+      }
     }
-    .hero_img{
-        .hero_img1{
-            position: relative;
-            left: -20%;
-            height: 600px;
+  }
+  .paymets {
+    margin-top: $rem14;
+    display: flex;
+    justify-content: space-between;
+    .paymets_flex {
+      display: flex;
+      gap: $rem3;
+      .paymets_div_box2 {
+        margin-top: -5rem;
+        margin-bottom: 2rem;
+      }
+    }
+    .paymets_div_box {
+      background-color: $white;
+      width: 350px;
+      padding: $rem2;
+      border-left: 4px solid transparent;
+      border-image: linear-gradient(to bottom, #00b5d0, #5c0e62);
+      border-image-slice: 1;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 10px 10px 20px #babecc,
+      -10px -10px 20px #f2e9ec;
 
+      &:hover {
+        transform: translateY(3px);
+        transform: translateX(2px);
+      }
+
+      h4 {
+        font-size: 23px;
+        margin-top: $rem1;
+        color: #555;
+      }
+      p {
+        color: gray;
+        font-size: 20px;
+        width: 97%;
+      }
+    }
+    .Paymets_text_box{
+      width: 700px;
+      text-align: start;
+      p{
+        font-size: 18px;
+        width: 70%;
+        margin-left: 4rem;
+      }
+      .paymets_bnt{
+        margin-top: 2rem;
+        margin-left: 4rem;
+        button{
+          color: #5c0e62;
+          font-size: 20px;
+          font-weight: 700;
+          border: none;
+          background-color: transparent;
+          span{
+            transition: all 0.3s ease-in-out;
+          }
         }
-        .hero_img2{
-            width: 1200px;
-            position: absolute;
-            top: -5rem;
-            right: -2%;
-            height: auto;
-        }
+      }
+    }
+
+    .paymets_text {
+      margin-top: -10rem;
+      position: relative;
+      font-size: 50px;
+      width: 70%;
+      margin-left: 4rem;
+      color: #555;
+      margin-bottom: 2rem;
+      span {
+        color: #5c0e62;
+      }
+    }
+    .paymets_img {
+      position: absolute;
+      margin-left: 1rem;
+      margin-top: -13rem;
     }
   }
 }

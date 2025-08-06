@@ -11,6 +11,10 @@
   font-family: "Proxima Nova", sans-serif;
 }
 
+body {
+  background-color: #f2e9ec;
+}
+
 .container {
   max-width: 1350px;
   width: 100%;
@@ -181,6 +185,89 @@ main .hero_box .hero_img .hero_img2 {
   top: -5rem;
   right: -2%;
   height: auto;
+}
+main .paymets {
+  margin-top: 14rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .paymets .paymets_flex {
+  display: flex;
+  gap: 3rem;
+}
+main .paymets .paymets_flex .paymets_div_box2 {
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+main .paymets .paymets_div_box {
+  background-color: #fff;
+  width: 350px;
+  padding: 2rem;
+  border-left: 4px solid transparent;
+  border-image: linear-gradient(to bottom, #00b5d0, #5c0e62);
+  border-image-slice: 1;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #f2e9ec;
+}
+main .paymets .paymets_div_box:hover {
+  transform: translateY(3px);
+  transform: translateX(2px);
+}
+main .paymets .paymets_div_box h4 {
+  font-size: 23px;
+  margin-top: 1rem;
+  color: #555;
+}
+main .paymets .paymets_div_box p {
+  color: gray;
+  font-size: 20px;
+  width: 97%;
+}
+main .paymets .Paymets_text_box {
+  width: 700px;
+  text-align: start;
+}
+main .paymets .Paymets_text_box p {
+  font-size: 18px;
+  width: 70%;
+  margin-left: 4rem;
+}
+main .paymets .Paymets_text_box .paymets_bnt {
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+main .paymets .Paymets_text_box .paymets_bnt button {
+  color: #5c0e62;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+}
+main .paymets .Paymets_text_box .paymets_bnt button span {
+  transition: all 0.3s ease-in-out;
+}
+main .paymets .paymets_text {
+  margin-top: -10rem;
+  position: relative;
+  font-size: 50px;
+  width: 70%;
+  margin-left: 4rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+main .paymets .paymets_text span {
+  color: #5c0e62;
+}
+main .paymets .paymets_img {
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: -13rem;
 }
 
 /*# sourceMappingURL=style.css.map */

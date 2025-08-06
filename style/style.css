@@ -4,7 +4,27 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 header .navbar {
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +33,80 @@ header .navbar .nav_logo {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 27px;
+}
+header .navbar .nav_menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+header .navbar .nav_menu ul li a {
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+header .navbar .nav_menu ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffffff;
+  transition: width 0.3s ease-in-out;
+}
+header .navbar .nav_menu ul li a:hover::after {
+  width: 100%;
+}
+header .navbar .nav_btn {
+  display: flex;
+  gap: 1rem;
+}
+header .navbar .nav_btn .btn1 {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+header .navbar .nav_btn .btn1:hover {
+  -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  transform: translateY(-3px);
+}
+header .navbar .nav_btn .btn1:active {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
+  transform: translateY(5px);
+}
+header .navbar .nav_btn .btn2 {
+  padding: 7px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  background-color: #FFBC51;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+header .navbar .nav_btn .btn2:hover {
+  -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  transform: translateY(-3px);
+}
+header .navbar .nav_btn .btn2:active {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
+  transform: translateY(5px);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,19 +1,101 @@
+@use "./variable" as *;
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('./fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-header{
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .nav_logo{
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+header {
+  .navbar {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav_logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 27px;
     }
+    .nav_menu {
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        padding: 0;
+        margin: 0;
 
+        li {
+          a {
+            font-size: 20px;
+            position: relative;
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+            padding-bottom: 5px;
+
+            &::after {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              height: 2px;
+              width: 0;
+              background-color: #ffffff;
+              transition: width 0.3s ease-in-out;
+            }
+
+            &:hover::after {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .nav_btn {
+      display: flex;
+      gap: 1rem;
+      .btn1 {
+        padding: 12px 25px;
+        font-size: 18px;
+        border: none;
+        background-color: transparent;
+        border-radius: 30px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+          -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+          transform: translateY(-3px);
+        }
+        &:active {
+          -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+          -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
+          transform: translateY(5px);
+        }
+      }
+      .btn2 {
+        padding: 7px 25px;
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+        background-color: $orange;
+        color: $white;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+          -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+          transform: translateY(-3px);
+        }
+        &:active {
+          -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+          -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
+          transform: translateY(5px);
+        }
+      }
+    }
+  }
 }

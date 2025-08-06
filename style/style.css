@@ -34,6 +34,7 @@ header .navbar .nav_logo {
   align-items: center;
   gap: 8px;
   font-size: 27px;
+  color: #fff;
 }
 header .navbar .nav_menu ul {
   list-style: none;
@@ -46,7 +47,7 @@ header .navbar .nav_menu ul li a {
   font-size: 20px;
   position: relative;
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   font-weight: 500;
   padding-bottom: 5px;
 }
@@ -74,6 +75,7 @@ header .navbar .nav_btn .btn1 {
   background-color: transparent;
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
+  color: #fff;
 }
 header .navbar .nav_btn .btn1:hover {
   -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
@@ -107,6 +109,78 @@ header .navbar .nav_btn .btn2:active {
   -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
   transform: translateY(5px);
+}
+
+button {
+  cursor: pointer;
+}
+
+main .hero img {
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-size: 120rem;
+  position: relative;
+  top: -5rem;
+  z-index: -111;
+}
+main .hero_box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 16%;
+  left: 6%;
+}
+main .hero_box .hero_text {
+  margin-top: -9rem;
+}
+main .hero_box .hero_text h2 {
+  color: #fff;
+  font-size: 50px;
+  width: 67%;
+  margin-bottom: 1rem;
+}
+main .hero_box .hero_text p {
+  color: #fff;
+  font-size: 18px;
+  width: 67%;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+main .hero_box .hero_text .hero_btn {
+  padding: 12px 40px;
+  font-size: 18px;
+  background-color: #798AC9;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+main .hero_box .hero_text .hero_btn:hover {
+  -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  transform: translateY(-3px);
+}
+main .hero_box .hero_text .hero_btn:active {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
+  transform: translateY(5px);
+}
+main .hero_box .hero_img .hero_img1 {
+  position: relative;
+  left: -20%;
+  height: 600px;
+}
+main .hero_box .hero_img .hero_img2 {
+  width: 1200px;
+  position: absolute;
+  top: -5rem;
+  right: -2%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

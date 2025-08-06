@@ -16,6 +16,7 @@ header {
       align-items: center;
       gap: 8px;
       font-size: 27px;
+      color: $white;
     }
     .nav_menu {
       ul {
@@ -30,7 +31,7 @@ header {
             font-size: 20px;
             position: relative;
             text-decoration: none;
-            color: #000;
+            color: #ffffff;
             font-weight: 500;
             padding-bottom: 5px;
 
@@ -62,6 +63,7 @@ header {
         background-color: transparent;
         border-radius: 30px;
         transition: all 0.3s ease-in-out;
+        color: $white;
         &:hover {
           -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
           -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
@@ -98,4 +100,7 @@ header {
       }
     }
   }
+}
+button {
+  cursor: pointer;
 }

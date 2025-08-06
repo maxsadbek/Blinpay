@@ -96,7 +96,7 @@ main {
       cursor: pointer;
       transition: all 0.3s ease;
       box-shadow: 10px 10px 20px #babecc,
-      -10px -10px 20px #f2e9ec;
+      -10px -10px 20px #fff;
 
       &:hover {
         transform: translateY(3px);
@@ -155,5 +155,11 @@ main {
       margin-left: 1rem;
       margin-top: -13rem;
     }
+  }
+  .card_img{
+    margin-top: -12rem;
+    background-size: 120rem;
+    width: 100%;
+    position: relative;
   }
 }

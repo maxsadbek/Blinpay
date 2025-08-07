@@ -415,5 +415,105 @@ main .savings button {
   border: none;
   background-color: transparent;
 }
+main .customer {
+  margin-top: -18rem;
+  width: 100%;
+}
+main .customer .customer_img {
+  width: 100%;
+  position: relative;
+}
+main .customer .customer_img5 {
+  position: absolute;
+  top: 380%;
+  left: 0;
+}
+main .customer .customer_img6 {
+  position: absolute;
+  top: 380%;
+  right: 0;
+}
+main .customer .customer_big_box {
+  width: 80%;
+  position: absolute;
+  top: 450%;
+  margin-left: 9rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .customer .customer_big_box .customer_box {
+  position: absolute;
+  width: 300px;
+  margin-left: 2rem;
+}
+main .customer .customer_big_box .customer_box h1 {
+  color: #fff;
+  width: 400px;
+  margin-top: -2rem;
+  margin-left: 3rem;
+  font-size: 40px;
+}
+main .customer .customer_big_box .customer_box h1 span {
+  color: #5c0e62;
+}
+main .customer .customer_big_box .customer_box p {
+  margin-top: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 3rem;
+  width: 500px;
+}
+main .customer .customer_big_box .customer_box .customer_imgs {
+  margin-top: 7rem;
+  opacity: 0.3;
+  margin-left: -1rem;
+}
+main .customer .customer_big_box .customer_div {
+  position: absolute;
+  margin-top: -12rem;
+  left: 30%;
+  width: 60%;
+  text-align: center;
+}
+main .customer .customer_big_box .customer_div p {
+  color: #fff;
+  width: 60%;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+main .customer .customer_big_box .customer_div h2 {
+  color: #FFBC51;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+main .customer .customer_big_box .customer_div h4 {
+  color: #FFBC51;
+}
+main .customer .customer_big_box .customer_23 {
+  position: absolute;
+  left: 65%;
+  margin-top: 15rem;
+}
+main .customer .customer_big_box .customer_24 {
+  position: absolute;
+  left: 95%;
+  margin-top: -14rem;
+}
+main .customer .customer_big_box .customer_25 {
+  position: absolute;
+  left: 90%;
+  margin-top: 7rem;
+}
+main .customer .customer_big_box .customer_23 {
+  position: absolute;
+  left: 65%;
+  margin-top: 15rem;
+}
+main .customer .customer_big_box .customer_26 {
+  position: absolute;
+  left: 97%;
+  margin-top: 20rem;
+}
 
 /*# sourceMappingURL=style.css.map */

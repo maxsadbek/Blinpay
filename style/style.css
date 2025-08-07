@@ -418,6 +418,7 @@ main .savings button {
 main .customer {
   margin-top: -18rem;
   width: 100%;
+  z-index: -111;
 }
 main .customer .customer_img {
   width: 100%;
@@ -514,6 +515,49 @@ main .customer .customer_big_box .customer_26 {
   position: absolute;
   left: 97%;
   margin-top: 20rem;
+}
+main .main_box_div {
+  margin-top: -6rem;
+  width: 1100px;
+  height: 180px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 5rem;
+  border-radius: 20px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 12rem;
+}
+main .main_box_div h1 {
+  color: #260735;
+  font-size: 40px;
+  font-weight: 700;
+}
+main .main_box_div .footer_btn {
+  font-size: 14px;
+  padding: 13px 45px;
+  font-weight: 800;
+  color: #fff;
+  background-color: #FFBC51;
+  border: none;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+main .main_box_div .footer_btn:hover {
+  -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+  transform: translateY(-4px);
+}
+main .main_box_div .footer_btn:active {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
+  transform: translateY(1px);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -314,6 +314,7 @@ main {
   .customer {
     margin-top: -18rem;
     width: 100%;
+    z-index: -111;
     .customer_img {
       width: 100%;
       position: relative;
@@ -411,4 +412,49 @@ main {
       }
     }
   }
+
+  .main_box_div {
+    margin-top: -6rem;
+    width: 1100px;
+    height: 180px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 12rem;
+    h1 {
+      color: #260735;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .footer_btn {
+      font-size: 14px;
+      padding: 13px 45px;
+      font-weight: 800;
+      color: $white;
+      background-color: $orange;
+      border: none;
+      border-radius: 7px;
+      transition: all 0.3s ease-in-out;
+      color: $white;
+      &:hover {
+        -webkit-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 12px 8px -7px rgba(34, 60, 80, 0.2);
+        transform: translateY(-4px);
+      }
+      &:active {
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 0px0px 0px rgba(34, 60, 80, 0.2);
+        transform: translateY(1px);
+      }
+    }
+  }
 }
+

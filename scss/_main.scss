@@ -95,8 +95,7 @@ main {
       z-index: 1;
       cursor: pointer;
       transition: all 0.3s ease;
-      box-shadow: 10px 10px 20px #babecc,
-      -10px -10px 20px #fff;
+      box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #fff;
 
       &:hover {
         transform: translateY(3px);
@@ -114,24 +113,24 @@ main {
         width: 97%;
       }
     }
-    .Paymets_text_box{
+    .Paymets_text_box {
       width: 700px;
       text-align: start;
-      p{
+      p {
         font-size: 18px;
         width: 70%;
         margin-left: 4rem;
       }
-      .paymets_bnt{
+      .paymets_bnt {
         margin-top: 2rem;
         margin-left: 4rem;
-        button{
+        button {
           color: #5c0e62;
           font-size: 20px;
           font-weight: 700;
           border: none;
           background-color: transparent;
-          span{
+          span {
             transition: all 0.3s ease-in-out;
           }
         }
@@ -156,13 +155,13 @@ main {
       margin-top: -13rem;
     }
   }
-  .card_img{
+  .card_img {
     margin-top: -12rem;
     background-size: 120rem;
     width: 100%;
     position: relative;
   }
-  .card_box{
+  .card_box {
     position: absolute;
     top: 205%;
     margin-left: 5rem;
@@ -170,16 +169,16 @@ main {
     align-items: center;
     justify-content: center;
     gap: 14rem;
-    img{
+    img {
       width: 60px;
       transition: all 0.3s ease-in-out;
 
-      &:hover{
+      &:hover {
         transform: scale(1.1);
       }
     }
   }
-  .credit{
+  .credit {
     position: absolute;
     top: 225%;
     margin-left: 10rem;
@@ -187,32 +186,32 @@ main {
     align-items: center;
     justify-content: center;
     gap: $rem4;
-    .credit_box{
-      .credit_img{
+    .credit_box {
+      .credit_img {
         margin-left: -3rem;
       }
-      h4{
+      h4 {
         margin-top: -1.5rem;
         font-size: 20px;
         color: red;
         margin-bottom: 1rem;
       }
-      h1{
+      h1 {
         color: #555;
         font-size: 45px;
         width: 50%;
         line-height: 1.2;
-        span{
+        span {
           color: #5c0e62;
         }
         margin-bottom: 1rem;
       }
-      p{
+      p {
         width: 55%;
         font-size: 18px;
         margin-bottom: 2rem;
       }
-      button{
+      button {
         font-size: 18px;
         color: #5c0e62;
         font-weight: 700;
@@ -222,45 +221,93 @@ main {
     }
   }
 
-  .img{
+  .img {
     position: absolute;
     top: 290%;
     margin-left: 7rem;
     display: flex;
     justify-content: space-between;
     gap: 15rem;
-    .img_box{
-        .credit_img{
+
+    .imgs {
+      transition: all 0.4s ease-in-out;
+      &:hover {
+        filter: drop-shadow(0px 3px 18px #2d2b2b);
+      }
+    }
+    .img_box {
+      .credit_img {
         margin-left: -3rem;
       }
-      h4{
+      h4 {
         margin-top: -1.5rem;
         font-size: 20px;
         color: red;
         margin-bottom: 1rem;
       }
-      h1{
+      h1 {
         color: #555;
         font-size: 45px;
         width: 50%;
         line-height: 1.2;
-        span{
+        span {
           color: #5c0e62;
         }
         margin-bottom: 1rem;
       }
-      p{
+      p {
         width: 55%;
         font-size: 18px;
         margin-bottom: 2rem;
       }
-      button{
+      button {
         font-size: 18px;
         color: #5c0e62;
         font-weight: 700;
         border: none;
         background-color: transparent;
       }
+    }
+  }
+
+  .savings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 350%;
+    margin-left: 7rem;
+
+    .credit_img {
+      margin-left: -3rem;
+    }
+    h4 {
+      margin-top: -1.5rem;
+      font-size: 20px;
+      color: red;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      color: #555;
+      font-size: 45px;
+      width: 50%;
+      line-height: 1.2;
+      span {
+        color: #5c0e62;
+      }
+      margin-bottom: 1rem;
+    }
+    p {
+      width: 55%;
+      font-size: 18px;
+      margin-bottom: 2rem;
+    }
+    button {
+      font-size: 18px;
+      color: #5c0e62;
+      font-weight: 700;
+      border: none;
+      background-color: transparent;
     }
   }
 }

@@ -560,4 +560,43 @@ main .main_box_div .footer_btn:active {
   transform: translateY(1px);
 }
 
+.footer {
+  background-color: #210933;
+  margin-top: -10px;
+  padding: 9rem 2rem;
+  padding-bottom: 5rem;
+}
+.footer > div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer > div .footer_logo_box .Footer_logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 1rem;
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.footer > div .footer_logo_box i {
+  font-size: 50px;
+  margin-right: 1rem;
+  color: rgba(118, 115, 115, 0.4078431373);
+}
+.footer > div .footer_logo_box p {
+  margin-top: 2rem;
+  color: #444;
+  font-size: 18px;
+  width: 60%;
+}
+.footer > div .footer_menu h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+.footer > div .footer_menu p {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
 /*# sourceMappingURL=style.css.map */

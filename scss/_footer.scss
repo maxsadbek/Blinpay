@@ -1,1 +1,44 @@
 @use "./variable" as *;
+
+.footer{
+    background-color: #210933;
+    margin-top: -10px;
+    padding: $rem9 $rem2;
+    padding-bottom: $rem5;
+    >div{
+        display: flex;
+        justify-content: space-between;
+        .footer_logo_box{
+            .Footer_logo{
+                display: flex;
+                align-items: center;
+                color: $white;
+                gap: $rem1;
+                font-size: 24px;
+                margin-bottom: $rem2;
+            }
+            i{
+                font-size: 50px;
+                margin-right: 1rem;
+                color: #76737368;
+            }
+            p{
+                margin-top: $rem2;
+                color: #444;
+                font-size: 18px;
+                width: 60%;
+            }
+        }
+        .footer_menu{
+            h3{
+                color: $white;
+                font-size: 16px;
+                margin-bottom: 2rem;
+            }
+            p{
+                margin-bottom: 2rem;
+                color: #555;
+            }
+        }
+    }
+}
